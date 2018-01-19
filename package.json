@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-network-probe",
+  "version": "1.0.0",
+  "description": "Nodejs based network probe middleware that returns JSON data",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abidhahmed/nodejs-network-probe.git"
+  },
+  "keywords": [
+    "nodejs",
+    "network",
+    "probe",
+    "icmp",
+    "ping",
+    "latency",
+    "monitor"
+  ],
+  "author": "Abidh Ahmed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abidhahmed/nodejs-network-probe/issues"
+  },
+  "homepage": "https://github.com/abidhahmed/nodejs-network-probe#readme",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-router": "^7.3.0",
+    "ping": "^0.2.2"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
